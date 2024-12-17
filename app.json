@@ -2,7 +2,7 @@
   "id": "db8459d6-c93f-4d3c-a2f1-48ca5a7570ff",
   "name": "XMLImport",
   "publisher": "Default Publisher",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "24.0.0.0",
+  "application": "23.0.0.0",
   "idRanges": [
     {
       "from": 50100,

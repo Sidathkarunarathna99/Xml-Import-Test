@@ -1,8 +1,8 @@
 table 50100 XMLNodes
 {
     Caption = 'XMLNodes';
-    DataClassification = ToBeClassified;
-    
+    DataClassification = CustomerContent;
+
     fields
     {
         field(1; EntryNo; Integer)

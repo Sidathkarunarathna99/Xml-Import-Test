@@ -19,10 +19,10 @@
             "port": 7049
         },
         {
-            "name": "bcc-server-v24",
+            "name": "bcf-server-v24",
             "type": "al",
             "request": "launch",
-            "server": "http://bcc-server-v24/",
+            "server": "http://bcf-server-v24/",
             "serverInstance": "BC",
             "authentication": "UserPassword",
             "startupObjectId": 22,
@@ -30,7 +30,22 @@
             "breakOnRecordWrite": false,
             "launchBrowser": true,
             "tenant": "default",
-        },{           
+            "schemaUpdateMode": "ForceSync"
+        },{
+            "name": "bcf-server-v18",
+            "type": "al",
+            "request": "launch",
+            "server": "http://bcf-server-v18/",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "tenant": "default",
+            "schemaUpdateMode": "ForceSync"
+        },
+        {           
             "name": "AF-Test",
             "type": "al",
             "request": "launch",
@@ -42,6 +57,22 @@
             "startupObjectType": "Page",
             "tenant": "c9fe5293-a57b-4de6-b798-9588838c3cf3",
             "environmentName": "AF-Test"
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "BC-dev",
+            "server": "https://bc-dev.advanced-forms.com/",
+            "serverInstance": "bcf-v-24dev",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "port":443
         }
     ]
 }
